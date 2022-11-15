@@ -1,0 +1,56 @@
+.container{
+    margin: auto;
+    margin-top: 20px;
+    /* border: 3px solid black; */
+}
+
+h2 strong{
+    margin-left: 5px;
+    padding-left: 5px;
+    border-left: 4px inset red;
+    color: rgb(217, 226, 43);
+    font-size: 45px;
+}
+h2 strong:hover{
+    position: absolute;
+    border-radius: 1.5rem;
+    margin-left: 5px;
+    font-size: 50px;
+    padding-left: 5px;
+    border-left: 4px inset rgb(231, 225, 64);
+    background-color: whitesmoke;
+    font-family: Lucida ;
+    color: rgb(23, 6, 1);
+    animation-name: move;
+    animation-duration: 0.3s;
+}
+@keyframes move{
+    from{transform: translateX(0);}
+    to{transform: translateX(30px);}
+}
+
+.col-md-, .col-lg-4{
+    margin-bottom: 20px;
+}
+.sty{
+    font-size: 18px !important;
+    color: black !important;
+}
+.num{
+    width: 80px;
+    height: 30px;
+    border: 3px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 5px;
+}
+.uk-border-circle{
+    width: 100px !important;
+    height: 100px !important;
+}
+.fa-cart-arrow-down{
+    color: white;
+    font-size: 50px;
+    cursor: pointer;
+    padding-left: 20px;
+}
